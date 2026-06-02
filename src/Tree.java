@@ -1,3 +1,8 @@
 public class Tree {
-    // TODO complete this Tree class to replicate the implementation from the Tree class in adts.py
+    private Integer root;
+    private Tree[] subtree;
+    public Tree(Integer root, Tree[] subtree){
+        this.root = root;
+        this.subtree = subtree;
+    }
 }
